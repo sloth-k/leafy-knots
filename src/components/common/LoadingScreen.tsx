@@ -46,7 +46,7 @@ export function LoadingScreen() {
             </motion.div>
             <p className="font-heading text-2xl text-brown">Leafy Knots</p>
             <p className="text-sm tracking-[0.28em] text-brown/60 uppercase">
-              Warming up the yarn
+              Crafted with Care
             </p>
           </div>
         </motion.div>

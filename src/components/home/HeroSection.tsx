@@ -23,7 +23,7 @@ export function HeroSection() {
             Leafy Knots
           </span>
           <h1 className="mt-6 max-w-xl font-heading text-5xl leading-tight text-brown md:text-6xl">
-            Warming up the Yarn
+            Crafted with Care
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-brown/75">
             Handmade crochet and knitted creations for gifting, decor, keepsakes, and the kind of
