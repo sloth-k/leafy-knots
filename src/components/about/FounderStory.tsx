@@ -20,21 +20,23 @@ export function FounderStory() {
       <div className="flex flex-col justify-center">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sage">About the maker</p>
         <h1 className="mt-4 font-heading text-5xl text-brown md:text-6xl">
-          Handmade values, rooted in home
+          A COVID-era hobby brought back to life
         </h1>
         <div className="mt-6 space-y-5 text-base leading-8 text-brown/75">
           <p>
-            Leafy Knots is the work of a stay-at-home mom in Hyderabad who turned a love for crochet
-            and knitting into a small handmade brand built on care, patience, and meaningful detail.
+            Leafy Knots began with a stay-at-home mom in Hyderabad and her sister-in-law, who returned
+            to crochet and knitting during the COVID years and revisited an old hobby that had been
+            sitting quietly in the background for a long time.
           </p>
           <p>
-            The brand grew naturally through referrals, family circles, and community groups where
-            trust matters as much as the final piece. Every item reflects the pace of real handmade work
-            rather than factory repetition.
+            As they began making again, the pieces drew appreciation from friends, family, and people in
+            their community. What began as something personal slowly turned into requests, gifting orders,
+            and referrals that gave the hobby a new life.
           </p>
           <p>
-            From local gifting to wider orders across India, the goal is simple: grow slowly, stay
-            personal, and let handmade quality travel further through trust.
+            That is how Leafy Knots grew: not from mass production, but from people noticing the care in
+            the work and wanting something similar for themselves. The goal now is to keep growing in a
+            way that stays personal, thoughtful, and rooted in trust.
           </p>
         </div>
       </div>

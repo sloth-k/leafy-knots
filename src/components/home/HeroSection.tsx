@@ -20,14 +20,18 @@ export function HeroSection() {
           transition={{ duration: 0.65, ease: "easeOut" }}
         >
           <span className="inline-flex w-fit rounded-full bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-sage shadow-sm">
-            Cozy handmade stories
+            Leafy Knots
           </span>
           <h1 className="mt-6 max-w-xl font-heading text-5xl leading-tight text-brown md:text-6xl">
-            Handmade with Love in Hyderabad
+            Warming up the Yarn
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-brown/75">
-            Crochet and knitted creations for babies, homes, gifting, and the kind of everyday moments
-            that deserve something more personal than off-the-shelf.
+            Handmade crochet and knitted creations for gifting, decor, keepsakes, and the kind of
+            everyday moments that deserve something more personal than off-the-shelf.
+          </p>
+          <p className="mt-4 max-w-xl text-base leading-8 text-brown/68">
+            Start with the collection categories, explore the pieces inside each one, and reach out on
+            WhatsApp for custom orders or quick questions.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">

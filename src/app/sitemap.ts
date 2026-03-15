@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { collection } from "@/lib/collection";
+import { collection, collectionCategories } from "@/lib/collection";
 import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -25,11 +25,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
-    {
-      url: `${siteConfig.url}/contact`,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
   ];
 
   const itemRoutes: MetadataRoute.Sitemap = collection.map((item) => ({
@@ -38,5 +33,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...itemRoutes];
+  const categoryRoutes: MetadataRoute.Sitemap = collectionCategories.map((category) => ({
+    url: `${siteConfig.url}/collection/${category.slug}`,
+    changeFrequency: "monthly",
+    priority: 0.75,
+  }));
+
+  return [...staticRoutes, ...categoryRoutes, ...itemRoutes];
 }

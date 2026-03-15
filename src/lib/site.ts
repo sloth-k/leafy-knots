@@ -21,7 +21,6 @@ export const navigationLinks: NavigationLink[] = [
   { href: "/collection", label: "Collection" },
   { href: "/about", label: "About" },
   { href: "/custom-orders", label: "Custom Orders" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export const whyChooseUsPoints: WhyChooseUsPoint[] = [

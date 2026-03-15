@@ -16,7 +16,7 @@ export function Navbar() {
           <div>
             <p className="font-heading text-2xl leading-none text-brown">Leafy Knots</p>
             <p className="mt-1 text-[11px] uppercase tracking-[0.3em] text-brown/55">
-              Handmade in Hyderabad
+              Warming up the Yarn
             </p>
           </div>
         </Link>

@@ -46,7 +46,7 @@ export function MobileMenu() {
                   <div>
                     <p className="font-heading text-xl text-brown">Leafy Knots</p>
                     <p className="text-xs uppercase tracking-[0.25em] text-brown/55">
-                      Handmade warmth
+                      Warming up the Yarn
                     </p>
                   </div>
                 </div>

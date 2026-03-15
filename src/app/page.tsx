@@ -1,7 +1,7 @@
 import { LoadingScreen } from "@/components/common/LoadingScreen";
+import { ContactBand } from "@/components/home/ContactBand";
 import { CustomOrderCTA } from "@/components/home/CustomOrderCTA";
 import { FeaturedCollection } from "@/components/home/FeaturedCollection";
-import { GallerySection } from "@/components/home/GallerySection";
 import { HeroSection } from "@/components/home/HeroSection";
 import { StorySection } from "@/components/home/StorySection";
 import { TestimonialsSection } from "@/components/home/TestimonialsSection";
@@ -16,8 +16,8 @@ export default function HomePage() {
       <StorySection />
       <WhyChooseUs />
       <TestimonialsSection />
-      <GallerySection />
       <CustomOrderCTA />
+      <ContactBand />
     </>
   );
 }

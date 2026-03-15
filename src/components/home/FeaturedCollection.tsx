@@ -11,7 +11,7 @@ export function FeaturedCollection() {
         <SectionHeading
           eyebrow="Featured collection"
           title="A warm preview of the handmade collection"
-          description="Real work from the Leafy Knots archive, shown without forcing categories so browsing feels easy from the first tap."
+          description="A few featured pieces from the collection. When you open the full collection, you can browse by category first and then view the handmade items inside each one."
         />
         <Link
           href="/collection"
