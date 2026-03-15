@@ -64,6 +64,11 @@ export const imageMap = [
   { category: "Misc", image: "/images/misc/WhatsApp Image 2026-03-15 at 11.33.49 AM (2).jpeg" },
   { category: "Misc", image: "/images/misc/WhatsApp Image 2026-03-15 at 11.36.02 AM (1).jpeg" },
   { category: "Misc", image: "/images/misc/WhatsApp Image 2026-03-15 at 11.36.02 AM.jpeg" },
+
+  { category: "Wearables", image: "/images/wearables/WhatsApp Image 2026-03-15 at 1.29.49 PM (1).jpeg" },
+  { category: "Wearables", image: "/images/wearables/WhatsApp Image 2026-03-15 at 1.29.49 PM.jpeg" },
+  { category: "Wearables", image: "/images/wearables/WhatsApp Image 2026-03-15 at 1.35.04 PM.jpeg" },
+
 ] as const;
 
 export const heroImage = "/images/covers/WhatsApp Image 2026-03-15 at 11.30.38 AM.jpeg";

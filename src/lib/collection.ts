@@ -23,6 +23,7 @@ const categoryTags: Record<string, string[]> = {
   Gajra: ["gajra", "traditional", "festive", "handmade"],
   "Mats & Blankets": ["mats", "blankets", "home", "cozy"],
   Misc: ["handmade", "craft", "leafy-knots", "custom-friendly"],
+ Wearables: ["wearables", "handmade", "crochet", "gift-ready"],
 };
 
 const categoryMaterials: Record<string, string[]> = {
@@ -33,6 +34,7 @@ const categoryMaterials: Record<string, string[]> = {
   Gajra: ["Yarn work", "Handcrafted festive styling"],
   "Mats & Blankets": ["Comfort-first fibers", "Slow handmade construction"],
   Misc: ["Mixed handmade materials", "Careful finishing"],
+Wearables: ["Soft yarn", "Handmade finishing"],
 };
 
 const careNotes = [
@@ -59,6 +61,8 @@ function getName(category: string, index: number) {
       return `Gajra Piece ${itemNumber}`;
     case "Mats & Blankets":
       return `Mat or Blanket ${itemNumber}`;
+    case "Wearables":
+      return `Wearable Piece ${itemNumber}`;
     default:
       return `Leafy Knots Creation ${itemNumber}`;
   }
